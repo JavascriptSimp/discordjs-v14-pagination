@@ -1,0 +1,29 @@
+{
+  "name": "discordjs-pagination",
+  "version": "1.0.0",
+  "description": "Provides pagination for embeds in discord.js v14",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/JavascriptSimp/discordjs-pagination.git"
+  },
+  "keywords": [
+    "discord.js",
+    "discord",
+    "v14",
+    "embeds",
+    "pagination"
+  ],
+  "author": "JavascriptSimp",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/JavascriptSimp/discordjs-pagination/issues"
+  },
+  "homepage": "https://github.com/JavascriptSimp/discordjs-pagination#readme",
+  "dependencies": {
+    "discord.js": "^14.7.1"
+  }
+}
