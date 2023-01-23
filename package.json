@@ -18,7 +18,7 @@
     "pagination"
   ],
   "author": "JavascriptSimp",
-  "license": "ISC",
+  "license": "MIT",
   "bugs": {
     "url": "https://github.com/JavascriptSimp/discordjs-pagination/issues"
   },
