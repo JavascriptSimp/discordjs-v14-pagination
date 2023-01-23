@@ -17,7 +17,7 @@ Provides pagination for embeds in [discord.js v14](https://github.com/discordjs/
 
 ## 1 Installation
 ```bash
-npm install discordjs-pagination
+npm install discordjs-v14-pagination
 ```
 
 ## 2 Requirements
