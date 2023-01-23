@@ -1,6 +1,6 @@
 {
   "name": "discordjs-v14-pagination",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "description": "Provides pagination for embeds in discord.js v14",
   "main": "index.js",
   "scripts": {
