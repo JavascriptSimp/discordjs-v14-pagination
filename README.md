@@ -100,7 +100,7 @@ const nextPageButton = new ButtonBuilder()
 const buttons = [ previousPageButton, nextPageButton ];
 ```
 
-#### 3.4 Pagination Embed
+### 3.4 Pagination Embed
 Create the pagination embed.
 > When providing the text for the footer, you can use `{current}` and `{total}` as placeholders for the current page and the total number of pages.
 ```js
