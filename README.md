@@ -95,7 +95,7 @@ const nextPageButton = new ButtonBuilder()
 const buttons = [ previousPageButton, nextPageButton ];
 ```
 
-**Pagination Embed**
+#### Pagination Embed
 Create the pagination embed.
 > When providing the text for the footer, you can use `{current}` and `{total}` as placeholders for the current page and the total number of pages.
 ```js
@@ -109,8 +109,13 @@ paginationEmbed(
 ```
 
 ## Screenshots
-An example of how the pagination could look like. Please note that you can style the embeds and buttons however you like.
-### Two Buttons
-WIP
+An example of how the pagination could look like.
+
+> You can change the style of the embeds and buttons however you like
+
 ### Four Buttons
-WIP
+![image](https://user-images.githubusercontent.com/123409977/214140917-013f38a3-a7bf-41df-b9b0-4f9b794b6f16.png)
+### Two Buttons
+![image](https://user-images.githubusercontent.com/123409977/214140338-76f159cc-8a52-423a-98e1-fef660ccfcb7.png)
+
+When on the first page, all the buttons that take you to a previous page will be disabled. When on the last page, all the buttons that take you to a next page will be disabled. When the timeout ends, all buttons will be disabled.
