@@ -153,7 +153,6 @@ module.exports = async (interaction, pages, buttons, timeout = 60000, footer = '
     // If the collector times out, disable all the buttons.
     collector.on("end", async () => {
         try {
-            const message = await collector.message.fetch();
             await interaction.editReply({
                 components: [
                     new ActionRowBuilder()
@@ -161,7 +160,7 @@ module.exports = async (interaction, pages, buttons, timeout = 60000, footer = '
                 ],
             });
         } catch (error) {
-            console.log("Message no longer exists")
+            // Do nothing
         }
     });
 
