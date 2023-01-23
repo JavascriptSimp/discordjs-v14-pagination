@@ -29,7 +29,7 @@ How to use this package
 ### 3.1 Importing
 Import the package. You can pick any name you want for the import.
 ```js
-const paginationEmbed = require('discordjs-pagination');
+const paginationEmbed = require('discordjs-v14-pagination');
 ```
 
 ### 3.2 Embeds
