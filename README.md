@@ -1,4 +1,4 @@
-# discordjs-pagination
+# discordjs-v14-pagination
 Provides pagination for embeds in [discord.js v14](https://github.com/discordjs/discord.js/tree/main) using slash commands
 
 ## Table of Contents
